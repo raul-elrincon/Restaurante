@@ -1,0 +1,58 @@
+.reviews-container {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.reviews-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.reviews-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.review-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.review-author {
+  font-weight: bold;
+}
+
+.review-comment {
+  margin-top: 5px;
+}
+
+/* Estilos para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .reviews-container {
+    padding: 10px;
+  }
+
+  .reviews-title {
+    font-size: 20px;
+  }
+
+  .review-item {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .reviews-title {
+    font-size: 18px;
+  }
+
+  .review-item {
+    padding: 6px;
+  }
+}
