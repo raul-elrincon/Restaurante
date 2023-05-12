@@ -23,6 +23,8 @@ function Header() {
         <Link to="/">home</Link>
         <Link to="/menu">menu</Link>
         <Link to="/contacto">contacto</Link>
+        <Link to="/noticias">noticias</Link>
+        <Link to="/nosotros">sobre nosotros</Link>
       </nav>
 
       <div className="icons">
@@ -46,6 +48,8 @@ function Header() {
             <Link to="/">home</Link>
             <Link to="/menu">menu</Link>
             <Link to="/contacto">contacto</Link>
+            <Link to="/noticias">Noticias</Link>
+            <Link to="/nosotros">Sobre nosotros</Link>
           </div>
         </div>
       )}

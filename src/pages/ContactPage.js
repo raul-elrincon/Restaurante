@@ -21,7 +21,7 @@ function ContactPage() {
           </ul>
         </div>
         <ContactForm />
-        <div className="contact-map">
+        <div className="found-us">
           <h2>Encuéntranos</h2>
         </div>
         <ShopMap />

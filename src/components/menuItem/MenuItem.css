@@ -1,80 +1,84 @@
-.menu-container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .menu-item {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
-  background-color: #f8f8f8;
-  border: 1px solid #e5e5e5;
-  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  margin-left: 50px;
-  margin-right: 50px;
+  transition: all 0.3s ease-in-out;
+  margin: 50px;
 }
 
-.menu-item__image-container {
-  flex: 0 0 200px;
+.menu-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.menu-item__image {
+.menu-item-image {
   width: 100%;
-  height: auto;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.5rem;
 }
 
-.menu-item__details {
-  padding: 20px;
-}
-
-.menu-item__title {
-  font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.menu-item__description {
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.menu-item__price {
-  font-weight: bold;
-}
-
-.menu-title {
+.menu-item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
   text-align: center;
-  font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
-/* Estilos para la lista de menú */
-.menu-list {
-  list-style: none;
-  padding: 0;
+.menu-item-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: center;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .menu-container {
-    padding: 20px 40px;
+.menu-item-description {
+  margin-bottom: 1rem;
+}
+
+.menu-item-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: green;
+}
+
+@media (min-width: 768px) {
+  .menu-item {
+    
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2rem;
   }
-}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .menu-container {
-    padding: 20px 60px;
+  .menu-item-image-container {
+    width: 50%;
+    margin-right: 2rem;
   }
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .menu-container {
-    padding: 20px 80px;
+  .menu-item-details {
+    width: 50%;
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .menu-item-title {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .menu-item-description {
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .menu-item-price {
+    font-size: 1.5rem;
   }
 }

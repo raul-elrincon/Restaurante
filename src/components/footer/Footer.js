@@ -1,6 +1,7 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn,FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -38,7 +39,7 @@ function Footer() {
                 </a>
               </li>
               <li>
-                <a href="https://www.Github.com/" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/raul-elrincon/Restaurante.git" target="_blank" rel="noopener noreferrer">
                   <FaGithub />
                 </a>
               </li>
@@ -48,16 +49,19 @@ function Footer() {
             <h3>Enlaces importantes</h3>
             <ul className="footer-links">
               <li>
-                <a href="#">Inicio</a>
+                <a href="/home">Home</a>
               </li>
               <li>
-                <a href="#">Menú</a>
+                <a href="/menu">Menú</a>
               </li>
               <li>
-                <a href="#">Reservas</a>
+                <a href="/contacto">Contacto</a>
               </li>
               <li>
-                <a href="#">Contacto</a>
+                <a href="/noticias">Noticias</a>
+              </li>
+              <li>
+                <a href="/nosotros">Sobre nosotros</a>
               </li>
             </ul>
           </div>
@@ -65,7 +69,11 @@ function Footer() {
         <hr />
         <div className="row">
           <div className="col-md-12">
-            <p className="text-muted small mb-4 mb-lg-0">&copy; {new Date().getFullYear()} Restaurante Todos los derechos reservados Política de Privacidad y Cookies | Condiciones de Venta</p>
+            <p className="text-muted small mb-4 mb-lg-0">
+              &copy; {new Date().getFullYear()} Restaurante Todos los derechos reservados.{" "}
+              <Link to="/politica-de-privacidad">Política de Privacidad y Cookies</Link> |{" "}
+              <Link to="/condiciones-de-venta">Condiciones de Venta</Link>
+            </p>
           </div>
         </div>
       </div>

@@ -1,0 +1,124 @@
+.news-container {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.news-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.news-header h1 {
+  font-size: 3rem;
+  color: #333;
+  text-transform: uppercase;
+}
+.rss-container {
+  text-align: center;
+}
+
+a.rss-link {
+  color: orange;
+  font-weight: bold;
+}
+
+
+.news-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 10%;
+}
+
+.news-article {
+  width: 30%;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  transition: transform 0.2s ease-out;
+}
+
+.news-article:hover {
+  transform: translateY(-10px);
+}
+
+.article-image {
+  height: 200px;
+  overflow: hidden;
+}
+
+.article-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.2s ease-out;
+}
+
+.news-article:hover .article-image img {
+  transform: scale(1.2);
+}
+
+.article-text {
+  padding: 20px;
+}
+
+.article-text h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.article-text p {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.news-article:nth-child(1) .article-image img {
+  transform: translateX(0%);
+}
+
+.news-article:nth-child(2) .article-image img {
+  transform: translateX(0%);
+}
+
+.news-article:nth-child(3) .article-image img {
+  transform: translateX(0%);
+}
+
+@media screen and (max-width: 1200px) {
+  .news-content {
+    margin: 0 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .news-article {
+    width: 100%;
+  }
+  
+  .news-article:nth-child(1) .article-image img {
+    transform: translateY(0%);
+  }
+
+  .news-article:nth-child(2) .article-image img {
+    transform: translateY(10%);
+  }
+
+  .news-article:nth-child(3) .article-image img {
+    transform: translateY(-10%);
+  }
+}
+@media (max-width: 600px) {
+  .rss-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+a.rss-link {
+  color: orange;
+  font-weight: bold;
+}
