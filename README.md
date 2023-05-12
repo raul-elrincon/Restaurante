@@ -25,7 +25,7 @@ RauL's Restaurant utilizes the following third-party components:
 - [React Leaflet](https://react-leaflet.js.org): A React wrapper for Leaflet library to integrate maps into the application.
 - [React Icons](https://react-icons.github.io/react-icons/): A collection of customizable icons for React applications.
 - [React Responsive Carousel](https://www.npmjs.com/package/react-responsive-carousel): A React module used in frontend apps to display video and image galleries, make sales, and display connected blogs.
-- [React firebase](https://firebase.google.com/?gad=1&gclid=Cj0KCQjwpPKiBhDvARIsACn-gzCtI42MrJYNOoBhLIT7t9UVuX_7grq5eWrCHYMbuReNpJJiCrcyE-4aAgvvEALw_wcB&gclsrc=aw.ds&hl=es-419)
+- [React firebase](https://firebase.google.com/?gad=1&gclid=Cj0KCQjwpPKiBhDvARIsACn-gzCtI42MrJYNOoBhLIT7t9UVuX_7grq5eWrCHYMbuReNpJJiCrcyE-4aAgvvEALw_wcB&gclsrc=aw.ds&hl=es-419): React Firebase is a combination of React, a JavaScript library for building user interfaces, and Firebase, a platform developed by Google for building mobile and web applications. It allows developers to easily integrate Firebase services into their React applications.
 ## Tutorials
 
 The following tutorials were helpful during the development of RauL's Restaurant:
