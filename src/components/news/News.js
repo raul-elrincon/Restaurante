@@ -42,7 +42,7 @@ function News() {
       </div>
       <div class="rss-container">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <a class="rss-link" href="http://localhost:3000/rss.xml"><i class="fas fa-rss"></i> No te olvides de nuestro RSS</a>
+        <a class="rss-link" href="https://restaurante-129fa.web.app/rss.xml"><i class="fas fa-rss"></i> No te olvides de nuestro RSS</a>
       </div>
     </div>
   );
