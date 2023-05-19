@@ -3,7 +3,8 @@
 ## Description
 
 RauL's Restaurant is a web application that allows users to explore and discover various dishes and cuisines offered by the restaurant. It provides an interactive and user-friendly interface to browse the menu, make reservations, and contact the restaurant for inquiries or feedback.
-The Link to the proyect is: https://restaurante-129fa.web.app/
+The Link to the proyect is: https://restaurante-129fa.web.app
+The Link to the Project Console: https://console.firebase.google.com/project/restaurante-129fa/overview
 
 The main features of RauL's Restaurant include:
 
@@ -47,6 +48,15 @@ The following tutorials were helpful during the development of RauL's Restaurant
 ![Desktop Protoype](src/images/Prototipo-desktop.png)
 ![ALL Prototypes](src/images/Todos-prototipos.png)
 
+## RSS 
+
+This are the rss:
+
+![RSS](src/images/Captura%20de%20pantalla%202023-05-19%20192600.png)
+
+And when you select the news it send you to the page.
+
+![First_news] (src/images/Captura%de%pantalla%2023-05-19%1937420.png)
 
 ## Installation
 

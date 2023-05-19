@@ -6,6 +6,9 @@ import NewsPage from './pages/NewsPage';
 import AboutUsPage from './pages/AboutUsPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import TermsOfSalePage from './pages/TermsOfSalesPage';
+import FirstNews from './pages/FirstNews';
+import SecondNews from './pages/SecondNews';
+import ThirdNews from './pages/ThirdNews';
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/contacto" element={<ContactPage />} />
         <Route path="/noticias" element={<NewsPage />} />
+        <Route path="/noticias/nuevos-platillos" element={<FirstNews />} />
+        <Route path="/noticias/cena-en-el-patio" element={<SecondNews />} />
+        <Route path="/noticias/dia-del-padre" element={<ThirdNews />} />
         <Route path="/nosotros" element={<AboutUsPage />} />
       </Routes>
     </BrowserRouter>

@@ -4,7 +4,7 @@ const FeaturedItems = () => {
   const items = [
     {
       id: 1,
-      image: require("../../images/pexels-photo-5911151.jpg"),
+      image: require("../../images/image-1024x597.jpg"),
       title: "Eventos especiales",
       description: "Celebre ocasiones especiales con nosotros"
     },

@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>Título del RSS</title> 
+    <title>Ultimas Noticias</title> 
     <link>https://restaurante-129fa.web.app/noticias</link>
-    <description>Descripción del RSS</description>
+    <description>Este rss consiste en el lugar donde van las noticias de nuestro restaurante</description>
     <language>es-ES</language>
     <lastBuildDate>Fecha de última actualización</lastBuildDate>
     <item>
       <title>Nuevos platillos en el menú</title>
-      <link>https://restaurante-129fa.web.app/noticias#nuevos-platillos</link>
+      <link>https://restaurante-129fa.web.app/noticias/nuevos-platillos</link>
       <description>¡Estamos emocionados de anunciar el lanzamiento de nuestro nuevo menú! Nuestros chefs han estado trabajando arduamente en la creación de nuevos platillos deliciosos que sabemos que te encantarán. Ven y pruébalos hoy mismo.</description>
       <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Cena en el patio durante el verano</title>
-      <link>https://restaurante-129fa.web.app/noticias#cena-en-el-patio</link>
+      <link>https://restaurante-129fa.web.app/noticias/cena-en-el-patio</link>
       <description>¡El verano está casi aquí y estamos emocionados de anunciar la apertura de nuestro patio al aire libre! Disfruta de tu comida al aire libre con hermosas vistas de la ciudad. Se recomienda hacer reservaciones.</description>
       <pubDate>Sun, 15 May 2023 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Celebra el Día del Padre con nosotros</title>
-      <link>https://restaurante-129fa.web.app/noticias#dia-del-padre</link>
+      <link>https://restaurante-129fa.web.app/noticias/dia-del-padre</link>
       <description>¿Buscas la manera perfecta de celebrar el Día del Padre? Únete a nosotros para disfrutar de un menú especial fijo que seguramente impresionará. ¡Reserva tu mesa ahora!</description>
       <pubDate>Sun, 05 Jun 2023 00:00:00 GMT</pubDate>
     </item>
